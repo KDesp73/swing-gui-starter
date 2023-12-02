@@ -3,10 +3,6 @@ package com.mycompany.app;
 import com.mycompany.app.gui.MainFrame;
 import javax.swing.UIManager;
 
-/**
- * Hello world!
- *
- */
 public class App {
 
 	public static void main(String[] args) {

@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package com.mycompany.app.files;
 
 import java.io.BufferedReader;
@@ -15,10 +12,6 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-/**
- *
- * @author konstantinos
- */
 public class FileOperations {
 
 	private static String os = System.getProperty("os.name").toLowerCase();

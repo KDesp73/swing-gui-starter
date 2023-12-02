@@ -1,15 +1,8 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package com.mycompany.app.files;
 
 import java.util.regex.Pattern;
 
-/**
- *
- * @author konstantinos
- */
 public class Images {
 	private static final String ASSETS = System.getProperty("user.dir").replaceAll(Pattern.quote("\\"), "/") + "/assets/";
 	
