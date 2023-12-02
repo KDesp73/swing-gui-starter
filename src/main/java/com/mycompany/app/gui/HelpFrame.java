@@ -8,9 +8,8 @@ import java.util.regex.Pattern;
 import javax.swing.JFrame;
 import javax.swing.ListSelectionModel;
 import javax.swing.UIManager;
-import javax.swing.table.DefaultTableModel;
 
-public class HelpFrame extends javax.swing.JFrame {
+public final class HelpFrame extends javax.swing.JFrame {
 	String project_path = System.getProperty("user.dir").replaceAll(Pattern.quote("\\"), "/") + "/";
 
 	private int index = 0;
@@ -626,10 +625,7 @@ public class HelpFrame extends javax.swing.JFrame {
 //			}
 //		};
 //		
-//		shortcutsTable.setModel(dataModel);
-		
-	
-		
+//		shortcutsTable.setModel(dataModel);	
 	}
 	
 	private void next() {
