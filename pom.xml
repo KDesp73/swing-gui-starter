@@ -41,9 +41,9 @@
 		
 		<!--Database-->	
 		<dependency>
-			<groupId>kdesp73</groupId>
+			<groupId>io.github.kdesp73</groupId>
 			<artifactId>DataBridge</artifactId>
-			<version>2.0.8-SNAPSHOT</version>
+			<version>2.0.16</version>
 		</dependency>
         
         <!--Tray-->
