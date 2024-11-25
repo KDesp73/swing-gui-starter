@@ -15,18 +15,18 @@
     <url>http://www.example.com</url>
 
     <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>23</maven.compiler.source>
+		<maven.compiler.target>23</maven.compiler.target>
         <exec.mainClass>com.mycompany.app.App</exec.mainClass>
     </properties>
 
     <dependencies>
         <!--Themes-->
 		<dependency> 
-			<groupId>kdesp73</groupId>
-			<artifactId>SwingThemesLibrary</artifactId>
-			<version>1.0.1-SNAPSHOT</version>
+			<groupId>io.github.kdesp73</groupId>
+			<artifactId>SwingPaint</artifactId>
+			<version>1.1.1</version>
 		</dependency>
 		<dependency>
 			<groupId>com.formdev</groupId>
